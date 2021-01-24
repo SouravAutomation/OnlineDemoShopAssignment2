@@ -117,7 +117,7 @@ driver.save_screenshot("orderDetailsSnip.png")
 info = driver.find_element(By.XPATH, "/html/body/div[10]/p").text
 #print(info)
 
-print(info[:26])
+print(info[:27])
 
 purchaseAmount = (info.partition("Amount: ")[2].partition(" USD")[0])
 #print(purchaseAmount)
