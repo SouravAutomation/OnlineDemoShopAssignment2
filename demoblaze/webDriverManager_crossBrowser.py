@@ -91,7 +91,7 @@ Cart.click()    # Navigate to Cart
 
 # Delete Dell laptop from Cart
 value = driver.find_element(By.XPATH, '//*[@id="tbodyid"]/tr/td[2]').text
-print(value)
+#print(value)
 dele = "Dell i7 8gb"
 if (dele in value):
     driver.find_element(By.XPATH, '//*[@id="tbodyid"]/tr[1]/td[4]/a').click()
